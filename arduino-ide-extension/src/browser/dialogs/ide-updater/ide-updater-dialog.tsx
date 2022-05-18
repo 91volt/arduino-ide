@@ -89,6 +89,7 @@ export class IDEUpdaterDialogWidget extends ReactWidget {
   }
 
   onCloseAndInstall(): void {
+    this.windowService.setSafeToShutDown();
     this.updater.quitAndInstall();
   }
 

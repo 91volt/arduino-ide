@@ -55,4 +55,12 @@ export class ElectronWindowService extends TheiaElectronWindowService {
     });
     return response === 0; // 'Yes', close the window.
   }
+  
+  protected registerUnloadListeners(): void {
+    // NOOP
+  }
+
+  reload(): void {
+    window.location.reload();
+  }
 }

@@ -275,6 +275,7 @@ import {
   IDEUpdaterDialogWidget,
 } from './dialogs/ide-updater/ide-updater-dialog';
 import { ElectronIpcConnectionProvider } from '@theia/core/lib/electron-browser/messaging/electron-ipc-connection-provider';
+import { ShutdownRoutine } from './contributions/shutdown-routine';
 
 const ElementQueries = require('css-element-queries/src/ElementQueries');
 
@@ -300,6 +301,9 @@ export default new ContainerModule((bind, unbind, isBound, rebind) => {
   bind(ArduinoToolbarContribution).toSelf().inSingletonScope();
   bind(FrontendApplicationContribution).toService(ArduinoToolbarContribution);
 
+  bind(ShutdownRoutine).toSelf().inSingletonScope();
+  bind(FrontendApplicationContribution).toService(ShutdownRoutine);
+    
   // Renderer for both the library and the core widgets.
   bind(ListItemRenderer).toSelf().inSingletonScope();
 
