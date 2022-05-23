@@ -1,0 +1,350 @@
+{
+    "arduino": {
+        "common": {
+            "offlineIndicator": "Bạn dường như đang ngoại tuyến. Không có kết nối mạng, Arduino CLI có thể sẽ không thể tải về những tài nguyên cần thiết và có thể sẽ gây ra sự cố. Hãy kết nối Internet và khởi động lại ứng dụng.",
+            "noBoardSelected": "Không có bo mạch được chọn",
+            "selectedOn": "tại {0}",
+            "notConnected": "[Chưa được kết nối]",
+            "serialMonitor": "Serial Monitor",
+            "oldFormat": "'{0}' vẫn đang sử dụng đuôi '.pde' cũ. Bạn có muốn chuyển sang đuôi '.ino' mới hơn không?",
+            "later": "Để sau",
+            "selectBoard": "Lựa chọn bo mạch",
+            "unknown": "Không xác định",
+            "processing": "Đang sử lý",
+            "saveChangesToSketch": "Bạn có muốn lưu lại thay đổi với sketch này trước khi thoát không?",
+            "loseChanges": "Nếu bạn không lưu lại, những thay đổi của bạn sẽ bị mất."
+        },
+        "ide-updater": {
+            "errorCheckingForUpdates": "Có lỗi xảy ra trong quá trình kiểm tra cập nhật Arduino IDE.\n{0}",
+            "notNowButton": "Không phải bây giờ",
+            "versionDownloaded": "Arduino IDE {0} đã được tải về.",
+            "closeToInstallNotice": "Đóng ứng dụng và cài đặt bản cập nhật mới nhất lên máy bạn.",
+            "closeAndInstallButton": "Đóng và cài đặt",
+            "downloadingNotice": "Đang tải về bản mới nhất của Arduino IDE.",
+            "updateAvailable": "Cập nhật khả dụng",
+            "newVersionAvailable": "Đã có bản mới hơn của Arduino IDE ({0}) để tải xuống.",
+            "skipVersionButton": "Bỏ qua",
+            "downloadButton": "Tải về",
+            "goToDownloadPage": "Đã có bản cập nhật cho Arduino IDE, nhưng chúng tôi không thể tự động tải về và cài đặt. Hãy truy cập trang tải về và tải bản mới nhất từ đấy.",
+            "goToDownloadButton": "Đi tới trang tải về",
+            "ideUpdaterDialog": "Cập nhật phần mềm",
+            "noUpdatesAvailable": "Hiện tại không có bản cập nhật mới cho Arduino IDE"
+        },
+        "menu": {
+            "sketch": "Sketch",
+            "tools": "Công cụ"
+        },
+        "debug": {
+            "optimizeForDebugging": "Tối ưu hóa cho sửa lỗi",
+            "debugWithMessage": "Sửa lỗi - {0}",
+            "noPlatformInstalledFor": "Nền tảng chưa được cài đặt cho '{0}'",
+            "debuggingNotSupported": "Sửa lỗi không hỗ trợ bởi '{0}'"
+        },
+        "preferences": {
+            "language.log": "'True' nếu như muốn Arduino Language Server tạo tệp log vào trong thư mục chứa sketch. Nếu không thì là 'false'. Mặc định là 'false'.",
+            "compile.verbose": "'True' để bật đầu ra biên dịch chi tiết (verbose compile output). Mặc định là 'false'",
+            "compile.warnings": "Báo cho gcc biết phải sử dụng mức cảnh báo nào. Mặc định là 'None'",
+            "upload.verbose": "'True' để bật đầu ra nạp lệnh chi tiết (verbose upload output). Mặc định là 'false'",
+            "window.autoScale": "'True' nếu giao diện người dùng tự động thay đổi theo cỡ chữ.",
+            "window.zoomLevel": "Điều chỉnh mức thu phóng của của sổ. Kích thước mặc định là 0 và cứ mỗi mức tăng (+1) hoặc giảm (-1) tượng trưng cho việc thu phóng 20% lớn hơn hoặc nhỏ hơn. Bạn cũng có thể sử dụng số thập phân để thay đổi mức thu phóng với độ chi tiết tốt hơn.",
+            "ide.updateChannel": "Những kênh phát hành để cập nhật. 'stable' cung cấp các bản cập nhật ổn định, 'nightly' cung cấp các bản phát triển mới nhất.",
+            "board.certificates": "Danh sách các chứng chỉ có thể nạp lên bo mạch",
+            "sketchbook.showAllFiles": "'True' để hiển thị tất cả các tệp sketch trong sketch. Mặc định là 'false'.",
+            "cloud.enabled": "'True' nếu chức năng đồng bộ sketch được bật. Mặc định là 'true'.",
+            "cloud.pull.warn": "'True' nếu người dùng muốn được cảnh báo trước khi tải xuống một cloud sketch. Mặc định là 'true'.",
+            "cloud.push.warn": "'True' nếu người dùng muốn được cảnh báo trước khi đẩy lên lên một cloud sketch. Mặc định là 'true'.",
+            "cloud.pushpublic.warn": "'True' nếu người dùng muốn được cảnh báo trước khi đẩy lên lên một sketch công khai lên đám mây. Mặc định là 'true'.",
+            "cloud.sketchSyncEnpoint": "Đầu cuối đùng dể đẩy lên và tải xuống sketch từ backend. Mặc định chỉ đến Arduino Cloud API.",
+            "auth.clientID": "ID người dùng OAuth2.",
+            "auth.domain": "Tên miền OAuth2.",
+            "auth.audience": "Khán giả OAuth2.",
+            "auth.registerUri": "URI dùng để đăng kí người dùng mới.",
+            "network": "Mạng",
+            "sketchbook.location": "Địa điểm chứa sketchbook",
+            "browse": "Duyệt",
+            "files.inside.sketches": "Hiển thị các tệp tin trong sketch",
+            "editorFontSize": "Cỡ chữ trình soạn thảo",
+            "interfaceScale": "Độ thu phóng giao diện",
+            "showVerbose": "Hiển thị đầu ra chi tiết trong khi",
+            "compilerWarnings": "Cảnh báo từ trình biên dịch",
+            "automatic": "Tự động",
+            "compile": "biên dịch",
+            "upload": "nạp ",
+            "verifyAfterUpload": "Xác minh mã sau khi nạp",
+            "editorQuickSuggestions": "Đề xuất nhanh của trình biên dịch",
+            "additionalManagerURLs": "Địa chỉ URLs của các trình quản lý thêm bo mạch",
+            "noProxy": "Không có proxy",
+            "manualProxy": "Cấu hình proxy thủ công",
+            "newSketchbookLocation": "Chọn địa điểm lưu sketchbook mới",
+            "choose": "Chọn",
+            "enterAdditionalURLs": "Nhập các URLs bổ sung, mỗi cái một dòng",
+            "unofficialBoardSupport": "Nhấp vào đây để hiển thị danh sách các URLs hỗ trợ các bo mạch không chính thức",
+            "invalid.sketchbook.location": "Địa điểm sketchbook không hợp lệ: {0}",
+            "invalid.editorFontSize": "Cỡ chữ trình biên dịch không hợp lệ. Bắt buộc phải là số nguyên dương.",
+            "invalid.theme": "Chủ đề không hợp lệ."
+        },
+        "cloud": {
+            "signIn": "Đăng Nhập",
+            "signOut": "Đăng Xuất",
+            "chooseSketchVisibility": "Chọn khả năng hiển thị của Sketch của bạn:",
+            "privateVisibility": "Riêng tư. Chỉ mình bạn có thể thấy được sketch.",
+            "publicVisibility": "Công khai. Bất kì ai với liên kết có thể thấy được sketch.",
+            "link": "Liên kết:",
+            "embed": "Nhúng: ",
+            "cloudSketchbook": "Cloud Sketchbook",
+            "shareSketch": "Chia sẻ sketch.",
+            "showHideRemoveSketchbook": "Hiển thị/Ẩn Remote Sketchbook",
+            "pullSketch": "Tải xuống sketch",
+            "openInCloudEditor": "Mở trong trình biên dịch trên Cloud ",
+            "options": "Tùy chọn...",
+            "share": "Chia sẻ...",
+            "remote": "Từ xa",
+            "emptySketchbook": "Sketchbook của bạn đang trống",
+            "visitArduinoCloud": "Truy cập Arduino Cloud để tạo Cloud Sketch.",
+            "signInToCloud": "Đăng nhập vào Arduino Cloud",
+            "syncEditSketches": "Đồng bộ và chỉnh sửa các Arduino Cloud Sketch của bạn",
+            "learnMore": "Tìm hiểu thêm",
+            "continue": "Tiếp tục",
+            "pushSketch": "Đẩy sketch lên",
+            "pushSketchMsg": "Đây là sketch công khai. Trước khi đẩy lên, đảm bảo rằng tất cả các thông tin nhậy cảm được xác định trong tệp arduino_secrets.h. Bạn có thể tạo một sketch riêng tư từ bảng Chia sẻ.",
+            "pull": "Tải xuống",
+            "pullSketchMsg": "Tải xuống sketch này từ Cloud sẽ ghi đè bản cục bộ của nó. Bạn có chắc muốn tiếp tục?",
+            "donePulling": "Hoàn tất tải xuống '{0}'.",
+            "notYetPulled": "Không thể đẩy lên Cloud. Nó chưa được tải xuống.",
+            "push": "Đẩy lên",
+            "pullFirst": "Bạn phải tải xuống trước khi có thể đẩy lên Cloud.",
+            "donePushing": "Hoàn tất đẩy lên '{0}'.",
+            "connected": "Đã kết nối",
+            "offline": "Ngoại tuyến",
+            "profilePicture": "Ảnh hồ sơ"
+        },
+        "board": {
+            "installManually": "Cài thủ công",
+            "installNow": "Nhân \"{0} {1}\" phải được cài đặt cho bo mạch \"{2}\" đang được chọn. Bạn có muốn cài đặt ngay?",
+            "configDialogTitle": "Chọn Bo Mạch & Cổng Khác",
+            "configDialog1": "Chọn đồng thời một bo mạch và một cổng nếu bạn muốn nạp một sketch.",
+            "configDialog2": "Nếu bạn chỉ chọn một bo mạch thì bạn sẽ có khả năng biên dịch, nhưng không thể nạp sketch của bạn lên.",
+            "pleasePickBoard": "Hãy chọn một bo mạch được kết nối tới cổng mà bạn đã chọn.",
+            "showAllAvailablePorts": "Hiển thị tất cả các cổng khả dụng khi được kích hoạt",
+            "programmer": "Programmer",
+            "succesfullyInstalledPlatform": "Hoàn tất cài đặt nền tảng {0}:{1}",
+            "succesfullyUninstalledPlatform": "Hoàn tất gỡ cài đặt nền tảng {0}:{1}",
+            "couldNotFindPreviouslySelected": "Không thể tìm thấy bo mạch '{0}' được chọn trước đó trong nền tảng '{1}' đã được cài đặt. Hãy chọn lại thủ công bo mạch mà bạn muốn dùng. Bạn có muốn chọn lại ngay?",
+            "reselectLater": "Chọn lại sau",
+            "noneSelected": "Không có bo mạch được chọn.",
+            "noPortsSelected": "Không có cổng được chọn cho bo mạch: '{0}'.",
+            "noFQBN": "Không có FQBN khả dụng cho bo mạch \"{0}\" được chọn. Bạn đã cài đặt nhân tương ứng chưa?",
+            "openBoardsConfig": "Chọn bo mạch và cổng khác...",
+            "boardListItem": "{0} tại {1}",
+            "selectBoardForInfo": "Hãy chọn một bo mạch để lấy thông tin.",
+            "platformMissing": "Nền tảng cho bo mạch '{0}' được chọn chưa được cài đặt.",
+            "selectPortForInfo": "Hãy chọn một cổng để lấy thông tin bo mạch.",
+            "boardInfo": "Thông tin bo mạch",
+            "board": "Bo mạch {0}",
+            "port": "Cổng {0}",
+            "getBoardInfo": "Lấy thông tin bo mạch",
+            "inSketchbook": "(trong Sketchbook)"
+        },
+        "boardsManager": "Trình quản lý bo mạch",
+        "about": {
+            "label": "Về {0}",
+            "detail": "Phiên bản: {0}\nNgày: {1}{2}\nPhiên bản CLI: {3}{4} [{5}]\n\n{6}"
+        },
+        "contributions": {
+            "addFile": "Thêm tệp...",
+            "replaceTitle": "Thay thế",
+            "fileAdded": "Một tệp đã được thêm vào sketch."
+        },
+        "replaceMsg": "Thay thế phiên bản hiện tại của {0}?",
+        "library": {
+            "addZip": "Thêm thư viện đuôi .ZIP...",
+            "zipLibrary": "Thư viện",
+            "overwriteExistingLibrary": "Bạn có muốn ghi đè lên thư viện hiện có không?",
+            "successfullyInstalledZipLibrary": "Hoàn tất cài đặt thư viện từ tệp nén {0}",
+            "namedLibraryAlreadyExists": "Đã tồn tại thư mục chứa thư viện có tên {0}. Bạn có muốn ghi đè lên nó?",
+            "libraryAlreadyExists": "Đã tồn tại một thư viện. Bạn có muốn ghi đè lên nó?",
+            "include": "Thêm thư viện",
+            "manageLibraries": "Quản lý thư viện...",
+            "arduinoLibraries": "Thư viện Arduino",
+            "contributedLibraries": "Thư viện cộng đồng đóng góp",
+            "title": "Trình quản lý thư viện",
+            "needsOneDependency": "Thư viện <b>{0}:{1}</b> cần một thư viện bổ trợ khác hiện tại chưa được cài đặt:",
+            "needsMultipleDependencies": "Thư viện <b>{0}:{1}</b> cần một vài thư viện bổ trợ khác hiện tại chưa được cài đặt:",
+            "installOneMissingDependency": "Bạn có muốn cài thư viện bổ trợ còn thiếu không?",
+            "installMissingDependencies": "Bạn có muốn cài tất cả các thư viện bổ trợ còn thiếu không?",
+            "dependenciesForLibrary": "Thư viện bổ trợ cho thư viện {0}:{1}",
+            "installAll": "Cài tất cả",
+            "installOnly": "Chỉ cài {0}",
+            "installedSuccessfully": "Hoàn tất cài đặt thư viện {0}:{1}",
+            "uninstalledSuccessfully": "Hoàn tất gỡ cài đặt thư viện {0}:{1}"
+        },
+        "selectZip": "Chọn một tệp zip chứa thư viện mà bạn muốn cài",
+        "sketch": {
+            "archiveSketch": "Nén sketch",
+            "saveSketchAs": "Lưu thư mục sketch như là...",
+            "createdArchive": "Đã tạo tệp nén '{0]'.",
+            "new": "Tạo mới",
+            "openRecent": "Mở gần đây",
+            "showFolder": "Hiện thư mục sketch",
+            "sketch": "Sketch",
+            "moving": "Chuyển",
+            "movingMsg": "Tệp \"{0}\" cần phải được chứa trong thư mục sketch tên \"{1}\".\nTạo thư mục này, chuyển tệp tin vào đó, và tiếp tục?",
+            "cantOpen": "Một thư mục tên \"{0}\" đã tồn tại. Không thể mở sketch.",
+            "saveFolderAs": "Lưu thư mục sketch như là...",
+            "sketchbook": "Sketchbook",
+            "upload": "Nạp",
+            "uploadUsingProgrammer": "Nạp sử dụng Programmer",
+            "userFieldsNotFoundError": "Không thể tìm thấy các trường người dùng cho bo mạch đã kết nối",
+            "doneUploading": "Nạp hoàn tất.",
+            "configureAndUpload": "Cấu hình và nạp",
+            "verifyOrCompile": "Xác thực/Biên dịch",
+            "exportBinary": "Xuất tệp nhị phân đã biên dịch",
+            "verify": "Xác thực",
+            "doneCompiling": "Biên dịch hoàn tất.",
+            "couldNotConnectToSerial": "Không thể kết nối lại với cổng serial. {0}",
+            "openSketchInNewWindow": "Mở sketch trong cửa sổ mới",
+            "openFolder": "Mở thư mục",
+            "titleLocalSketchbook": "Sketchbook cục bộ",
+            "titleSketchbook": "Sketchbook",
+            "close": "Bạn có chắc muốn đóng sketch này không?"
+        },
+        "bootloader": {
+            "burnBootloader": "Nạp bootloader",
+            "doneBurningBootloader": "Hoàn tất nạp bootloader."
+        },
+        "editor": {
+            "copyForForum": "Sao chép cho diễn đàn (dạng Markdown)",
+            "commentUncomment": "Bình luận/Gỡ bình luận",
+            "increaseIndent": "Thụt dòng vào",
+            "decreaseIndent": "Thụt dòng ra",
+            "increaseFontSize": "Tăng cỡ chữ",
+            "decreaseFontSize": "Giảm cỡ chữ",
+            "autoFormat": "Tự động định dạng"
+        },
+        "examples": {
+            "menu": "Ví dụ",
+            "couldNotInitializeExamples": "Không thể khởi tạo các ví dụ tích hợp sẵn.",
+            "builtInExamples": "Ví dụ được tích hợp sẵn",
+            "customLibrary": "Ví dụ từ các thư viện tùy biến",
+            "for": "Ví dụ cho {0}",
+            "forAny": "Ví dụ cho bất kì bo mạch nào"
+        },
+        "help": {
+            "search": "Tìm trên Arduino.cc",
+            "keyword": "Nhập một từ khóa",
+            "gettingStarted": "Bắt đầu",
+            "environment": "Môi trường",
+            "troubleshooting": "Xử lý sự cố",
+            "reference": "Tham khảo",
+            "findInReference": "Tìm trong phần tham khảo",
+            "faq": "Các câu hỏi thường gặp",
+            "visit": "Truy cập Arduino.cc",
+            "privacyPolicy": "Chính sách bảo mật"
+        },
+        "certificate": {
+            "uploadRootCertificates": "Nạp lên các chứng chỉ gốc SSL",
+            "openContext": "Mở bối cảnh",
+            "remove": "Loại bỏ",
+            "upload": "Nạp",
+            "addURL": "Thêm URL để tải nạp chứng chỉ SSL",
+            "enterURL": "Nhập URL",
+            "selectCertificateToUpload": "1. Chọn chứng chỉ muốn nạp ",
+            "addNew": "Thêm mới",
+            "selectDestinationBoardToUpload": "2. Chọn bo mạch đích và nạp chứng chỉ",
+            "uploadingCertificates": "Đang nạp các chứng chỉ.",
+            "certificatesUploaded": "Hoàn tất nạp các chứng chỉ.",
+            "uploadFailed": "Nạp thất bại. Vui lòng thử lại.",
+            "selectBoard": "Chọn một bo mạch...",
+            "boardAtPort": "{0} tại {1}",
+            "noSupportedBoardConnected": "Không có bo mạch hỗ trợ được kết nối"
+        },
+        "firmware": {
+            "updater": "Trình cập nhật firmware cho WiFi101 / WiFiNINA",
+            "selectBoard": "Lựa chọn bo mạch",
+            "checkUpdates": "Kiểm tra cập nhật",
+            "selectVersion": "Chọn phiên bản firmware ",
+            "install": "Cài đặt",
+            "overwriteSketch": "Việc cài đặt sẽ ghi đè Sketch hiện có trên bo mạch.",
+            "installingFirmware": "Đang cài đặt firmware.",
+            "successfullyInstalled": "Hoàn tất cài đặt firmware.",
+            "failedInstall": "Cài đặt thất bại. Vui lòng thử lại."
+        },
+        "dialog": {
+            "dontAskAgain": "Đừng hỏi lại"
+        },
+        "userFields": {
+            "cancel": "Hủy",
+            "upload": "Nạp"
+        },
+        "serial": {
+            "toggleTimestamp": "Bật tắt mốc thời gian",
+            "autoscroll": "Tự động cuộn",
+            "timestamp": "Mốc thời gian",
+            "noLineEndings": "Không có kết thúc dòng",
+            "newLine": "Dòng mới",
+            "carriageReturn": "Về đầu dòng",
+            "newLineCarriageReturn": "Vừa xuống dòng & về đầu dòng",
+            "notConnected": "Chưa được kết nối. Hãy chọn một bo mạch và một cổng để tự động kết nối.",
+            "message": "Nhắn tin ({0} + Enter để gửi tin nhắn tới '{1}' trên cổng '{2}')",
+            "connectionBusy": "Kết nối thất bại. Cống serial đang bận: {0}",
+            "disconnected": "Ngắt kết nối {0} khỏi {1}.",
+            "unexpectedError": "Lỗi không mong muốn. Đang kết nối lại {0} tại cổng {1}.",
+            "failedReconnect": "Thất bại khi cố kết nối lại {0} đến cổng serial sau 10 lần thử liên tiếp. Cổng serial {1} đang bận.",
+            "reconnect": "Đang kết nối lại {0} tới {1} trong {2} giây..."
+        },
+        "component": {
+            "uninstall": "Gỡ cài đặt",
+            "uninstallMsg": "Bạn có muốn gỡ cài đặt {0}?",
+            "by": "bởi",
+            "version": "Phiên bản {0}",
+            "moreInfo": "Thêm thông tin",
+            "install": "CÀI ĐẶT",
+            "filterSearch": "Lọc kết quả tìm kiếm của bạn..."
+        },
+        "electron": {
+            "couldNotSave": "Không thể lưu sketch. Hãy sao chép tất cả những phần việc chưa được lưu lại vào trình chỉnh sửa văn bản yêu thích của bạn, và khởi động lại IDE.",
+            "unsavedChanges": "Tất cả các thay đổi chưa được lưu sẽ không được lưu lại."
+        },
+        "compile": {
+            "error": "Lỗi biên dịch: {0}"
+        },
+        "upload": {
+            "error": "Lỗi {0}: {1}"
+        },
+        "burnBootloader": {
+            "error": "Lỗi khi nạp bootloader: {0}"
+        }
+    },
+    "theia": {
+        "core": {
+            "couldNotSave": "Không thể lưu sketch. Hãy sao chép tất cả những phần việc chưa được lưu lại vào trình chỉnh sửa văn bản yêu thích của bạn, và khởi động lại IDE.",
+            "offline": "Ngoại tuyến",
+            "daemonOffline": "Trình chạy nền CLI ngoại tuyến",
+            "cannotConnectBackend": "Không thể kết nối đến backend.",
+            "cannotConnectDaemon": "Không thể kết nối đến trình chạy nền CLI."
+        },
+        "debug": {
+            "start": "Bắt đầu...",
+            "typeNotSupported": "Phiên gỡ lỗi loại \"{0}\" không được hỗ trợ.",
+            "startError": "Có lỗi xảy ra khi khởi chạy phiên sửa lỗi, hãy kiểm tra log để biết thêm chi tiết."
+        },
+        "editor": {
+            "unsavedTitle": "Chưa được lưu – {0}"
+        },
+        "messages": {
+            "expand": "Mở rộng",
+            "collapse": "Thu nhỏ"
+        },
+        "workspace": {
+            "fileNewName": "Tên cho tệp mới",
+            "invalidFilename": "Tên tệp không hợp lệ.",
+            "invalidExtension": ".{0} không phải đuôi mở rộng hợp lệ",
+            "newFileName": "Tên mới cho tệp",
+            "deleteCurrentSketch": "Bạn có muốn xóa sketch hiện tại?",
+            "sketchDirectoryError": "Có lỗi xảy ra khi tạo đường dẫn đến sketch. Hãy xem log để biết thêm chi tiết. Chương trình có thể sẽ không hoạt động bình thường."
+        }
+    },
+    "cloud": {
+        "GoToCloud": "ĐI ĐẾN CLOUD"
+    }
+}

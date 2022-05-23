@@ -325,23 +325,23 @@
         },
         "debug": {
             "start": "البدء...",
-            "typeNotSupported": "The debug session type \"{0}\" is not supported.",
-            "startError": "There was an error starting the debug session, check the logs for more details."
+            "typeNotSupported": "جلسة التصحيح من نوع \"{0}\" غير مدعومة",
+            "startError": "لقد حصل خطأ اثناء بدأ جلسة التصحيح . تحقق من السجلات للمزيد من المعلومات"
         },
         "editor": {
-            "unsavedTitle": "Unsaved – {0}"
+            "unsavedTitle": "غير محفوظ – {0}"
         },
         "messages": {
             "expand": "توسيع",
             "collapse": "تقليص"
         },
         "workspace": {
-            "fileNewName": "Name for new file",
-            "invalidFilename": "Invalid filename.",
+            "fileNewName": "اسم الملف الجديد",
+            "invalidFilename": "اسم الملف خاطئ",
             "invalidExtension": "\".{0}\" امتداد غير صالح",
             "newFileName": "الاسم الجديد لملف",
             "deleteCurrentSketch": "هل تريد حذف المشروع الحالي؟",
-            "sketchDirectoryError": "There was an error creating the sketch directory. See the log for more details. The application will probably not work as expected."
+            "sketchDirectoryError": "لقد حصل خطأ اثناء انشاء مجلد المشروع . اذهب الى السجل للمزيد من التفاصيل . التطبيق غالبا لن يعمل بالشكل المطلوب"
         }
     },
     "cloud": {

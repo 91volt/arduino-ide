@@ -10,9 +10,9 @@
             "later": "Depois",
             "selectBoard": "Selecione a Placa",
             "unknown": "Desconhecido",
-            "processing": "Processando",
-            "saveChangesToSketch": "Deseja salvar as alterações neste sketch antes de fechar?",
-            "loseChanges": "Se você não salvar, as alterações serão perdidas. "
+            "processing": "Em processamento",
+            "saveChangesToSketch": "Deseja gravar as alterações neste esboço antes de fechar?",
+            "loseChanges": "Se não gravar, as alterações serão perdidas."
         },
         "ide-updater": {
             "errorCheckingForUpdates": "Erro ao verificar as atualizações do IDE do Arduino. {0}",
@@ -188,7 +188,7 @@
             "showFolder": "Mostrar a pasta de Sketches",
             "sketch": "Sketch",
             "moving": "Movendo",
-            "movingMsg": "The file \"{0}\" needs to be inside a sketch folder named \"{1}\".\nCreate this folder, move the file, and continue?",
+            "movingMsg": "O ficheiro \"{0}\" tem que estar dentro de uma pasta de esboços chamada \"{1}\".\nCriar esta pasta, mover o ficheiro e continuar?",
             "cantOpen": "Directoria chamada \"{0}\" já existe. Não é possível abrir o rascunho.",
             "saveFolderAs": "Salvar a pasta de sketch como...",
             "sketchbook": "Sketchbook",
@@ -285,7 +285,7 @@
             "carriageReturn": "Retorno de linha",
             "newLineCarriageReturn": "Nova linha e retorno de linha",
             "notConnected": "Não conectado. Selecione uma placa e uma porta para conectar automaticamente.",
-            "message": "Message ({0} + Enter to send message to '{1}' on '{2}')",
+            "message": "Mensagem ({0} + Enter para enviar mensagem para '{1}' em '{2}'",
             "connectionBusy": "A conexão falhou. A porta serial está ocupada: {0}",
             "disconnected": "Desconectado {0} de {1}.",
             "unexpectedError": "Erro inesperado. Reconectando {0} na porta {1}.",

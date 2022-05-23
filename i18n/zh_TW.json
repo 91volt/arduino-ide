@@ -3,7 +3,7 @@
         "common": {
             "offlineIndicator": "您目前處於離線狀態，在沒有網路的情況下，Arduino命令列介面將無法下載需要的資源，並可能導致錯誤。請連接至網路並重新啟動程式。",
             "noBoardSelected": "沒有選擇開發版",
-            "selectedOn": "on {0}",
+            "selectedOn": "在 1{0}",
             "notConnected": "[未連接]",
             "serialMonitor": "序列埠監控",
             "oldFormat": "'{0}'仍然使用舊的 `.pde` 格式，是否要轉換至新的 `.ino` 擴充?",
@@ -120,231 +120,231 @@
         },
         "board": {
             "installManually": "手動安裝",
-            "installNow": "The \"{0} {1}\" core has to be installed for the currently selected \"{2}\" board. Do you want to install it now?",
-            "configDialogTitle": "Select Other Board & Port",
-            "configDialog1": "Select both a Board and a Port if you want to upload a sketch.",
-            "configDialog2": "If you only select a Board you will be able to compile, but not to upload your sketch.",
-            "pleasePickBoard": "Please pick a board connected to the port you have selected.",
-            "showAllAvailablePorts": "Shows all available ports when enabled",
-            "programmer": "Programmer",
-            "succesfullyInstalledPlatform": "Successfully installed platform {0}:{1}",
-            "succesfullyUninstalledPlatform": "Successfully uninstalled platform {0}:{1}",
-            "couldNotFindPreviouslySelected": "Could not find previously selected board '{0}' in installed platform '{1}'. Please manually reselect the board you want to use. Do you want to reselect it now?",
-            "reselectLater": "Reselect later",
-            "noneSelected": "No boards selected.",
-            "noPortsSelected": "No ports selected for board: '{0}'.",
-            "noFQBN": "The FQBN is not available for the selected board \"{0}\". Do you have the corresponding core installed?",
-            "openBoardsConfig": "Select other board and port…",
-            "boardListItem": "{0} at {1}",
-            "selectBoardForInfo": "Please select a board to obtain board info.",
-            "platformMissing": "The platform for the selected '{0}' board is not installed.",
-            "selectPortForInfo": "Please select a port to obtain board info.",
-            "boardInfo": "Board Info",
-            "board": "Board{0}",
-            "port": "Port{0}",
-            "getBoardInfo": "Get Board Info",
-            "inSketchbook": " (in Sketchbook)"
+            "installNow": "必須為目前選定的 {2} 開發板安裝 1{0} 2{1} 核心程式，你要現在安裝嗎？",
+            "configDialogTitle": "選擇其他電路板或通訊埠",
+            "configDialog1": "若要上傳 Sketch 請選擇一片板子及一個埠",
+            "configDialog2": "如果你只有選擇板子你可以編譯，但不能上傳 Sketch",
+            "pleasePickBoard": "請選擇要連接的開發版",
+            "showAllAvailablePorts": "當開啟時，顯示所有可用的埠",
+            "programmer": "燒錄器",
+            "succesfullyInstalledPlatform": "平台已成功安裝 1[0]：2[1]",
+            "succesfullyUninstalledPlatform": "平台已成功移除 1[0]：2[1]",
+            "couldNotFindPreviouslySelected": "在安装的平台{1}中找不到以前選擇的開發板{0}。請手動選擇要使用的開發板。你想現在重新選擇它吗？",
+            "reselectLater": "請晚一點再選擇",
+            "noneSelected": "沒有選擇電路板",
+            "noPortsSelected": "沒有選到 '{0}' 板的埠",
+            "noFQBN": "FQBN無法用於所選擇的\"{0}\"開發版。你是否安裝了對應的核心?",
+            "openBoardsConfig": "選擇其他的電路板或埠...",
+            "boardListItem": "{0}在{1}",
+            "selectBoardForInfo": "請選擇電路板以取得板子的資訊",
+            "platformMissing": "選擇的'{0}'開發版平台並未安裝",
+            "selectPortForInfo": "請選定一個埠，以便能取得板子的資訊",
+            "boardInfo": "開發板資訊",
+            "board": "1{0} 開發板",
+            "port": "1{0} 埠",
+            "getBoardInfo": "取得開發板資訊",
+            "inSketchbook": "(在草稿資料夾中)"
         },
-        "boardsManager": "Boards Manager",
+        "boardsManager": "開發板管理器",
         "about": {
-            "label": "About {0}",
-            "detail": "Version: {0}\nDate: {1}{2}\nCLI Version: {3}{4} [{5}]\n\n{6}"
+            "label": "關於 1[0]",
+            "detail": "版本：1{0}，日期：2{1}，命令列版本：{3}{4}[{5}]  {6}"
         },
         "contributions": {
-            "addFile": "Add File",
-            "replaceTitle": "Replace",
-            "fileAdded": "One file added to the sketch."
+            "addFile": "加入檔案",
+            "replaceTitle": "替代",
+            "fileAdded": "一個檔案加入到 Sketch"
         },
-        "replaceMsg": "Replace the existing version of {0}?",
+        "replaceMsg": "取代 1{0} 的現有版本？",
         "library": {
-            "addZip": "Add .ZIP Library...",
-            "zipLibrary": "Library",
-            "overwriteExistingLibrary": "Do you want to overwrite the existing library?",
-            "successfullyInstalledZipLibrary": "Successfully installed library from {0} archive",
-            "namedLibraryAlreadyExists": "A library folder named {0} already exists. Do you want to overwrite it?",
-            "libraryAlreadyExists": "A library already exists. Do you want to overwrite it?",
-            "include": "Include Library",
-            "manageLibraries": "Manage Libraries...",
-            "arduinoLibraries": "Arduino libraries",
-            "contributedLibraries": "Contributed libraries",
-            "title": "Library Manager",
-            "needsOneDependency": "The library <b>{0}:{1}</b> needs another dependency currently not installed:",
-            "needsMultipleDependencies": "The library <b>{0}:{1}</b> needs some other dependencies currently not installed:",
-            "installOneMissingDependency": "Would you like to install the missing dependency?",
-            "installMissingDependencies": "Would you like to install all the missing dependencies?",
-            "dependenciesForLibrary": "Dependencies for library {0}:{1}",
-            "installAll": "Install all",
-            "installOnly": "Install {0} only",
-            "installedSuccessfully": "Successfully installed library {0}:{1}",
-            "uninstalledSuccessfully": "Successfully uninstalled library {0}:{1}"
+            "addZip": "加入 .zip 函式庫 ...",
+            "zipLibrary": "函式庫",
+            "overwriteExistingLibrary": "你要覆寫既有的函式庫嗎？",
+            "successfullyInstalledZipLibrary": "從 1{0} 歸檔成功安裝函式庫",
+            "namedLibraryAlreadyExists": "函式庫的資料夾名稱 1{0} 已經存在，你要覆寫它嗎？",
+            "libraryAlreadyExists": "函式庫已經存在，你要覆寫它嗎？",
+            "include": "含括函式庫",
+            "manageLibraries": "管理函式庫",
+            "arduinoLibraries": "Arduino函式庫",
+            "contributedLibraries": "貢獻函式庫",
+            "title": "函式庫管理器",
+            "needsOneDependency": "函式庫<b>{0}：{1}</b>需要一些未安装的附屬程式：",
+            "needsMultipleDependencies": "函式庫<b>{0}：{1}</b>需要一些未安装的附屬程式：",
+            "installOneMissingDependency": "是否安裝缺少的附屬程式?",
+            "installMissingDependencies": "是否安裝所有缺少的附屬程式？",
+            "dependenciesForLibrary": "與 1{0}：2{1} 函式庫相依",
+            "installAll": "全部安裝",
+            "installOnly": "只安裝 1[0]",
+            "installedSuccessfully": "成功安裝 1{0}：2{1} 函式庫",
+            "uninstalledSuccessfully": "成功移除安裝的 1{0}：2{1} 函式庫"
         },
-        "selectZip": "Select a zip file containing the library you'd like to add",
+        "selectZip": "選擇要加入函示庫的zip檔案",
         "sketch": {
-            "archiveSketch": "Archive Sketch",
-            "saveSketchAs": "Save sketch folder as...",
-            "createdArchive": "Created archive '{0}'.",
+            "archiveSketch": "儲存草稿",
+            "saveSketchAs": "另存 Sketch 資料夾",
+            "createdArchive": "已創建文件{0}。",
             "new": "新增",
-            "openRecent": "Open Recent",
-            "showFolder": "Show Sketch Folder",
+            "openRecent": "開啟最近的",
+            "showFolder": "顯示 Sketch 資料夾",
             "sketch": "草稿",
-            "moving": "Moving",
-            "movingMsg": "The file \"{0}\" needs to be inside a sketch folder named \"{1}\".\nCreate this folder, move the file, and continue?",
-            "cantOpen": "A folder named \"{0}\" already exists. Can't open sketch.",
-            "saveFolderAs": "Save sketch folder as...",
-            "sketchbook": "Sketchbook",
-            "upload": "Upload",
-            "uploadUsingProgrammer": "Upload Using Programmer",
-            "userFieldsNotFoundError": "Can't find user fields for connected board",
-            "doneUploading": "Done uploading.",
-            "configureAndUpload": "Configure And Upload",
-            "verifyOrCompile": "Verify/Compile",
-            "exportBinary": "Export Compiled Binary",
-            "verify": "Verify",
-            "doneCompiling": "Done compiling.",
-            "couldNotConnectToSerial": "Could not reconnect to serial port. {0}",
-            "openSketchInNewWindow": "Open Sketch in New Window",
-            "openFolder": "Open Folder",
-            "titleLocalSketchbook": "Local Sketchbook",
-            "titleSketchbook": "Sketchbook",
-            "close": "Are you sure you want to close the sketch?"
+            "moving": "移動",
+            "movingMsg": "\"{0}\"必須在命名為\"{1}\"的草稿資料夾中。建立這個資料夾，移動草稿並繼續？",
+            "cantOpen": "命名為\"{0}\"的資料夾已存在。無法開啟草稿。",
+            "saveFolderAs": "另存 Sketch 資料夾",
+            "sketchbook": "草稿資料夾",
+            "upload": "上傳",
+            "uploadUsingProgrammer": "使用燒錄器上傳",
+            "userFieldsNotFoundError": "找不到已連接開發版中的用戶字段",
+            "doneUploading": "上傳完畢",
+            "configureAndUpload": "組態配置並上傳",
+            "verifyOrCompile": "驗證/編譯",
+            "exportBinary": "會出已編譯的二進位檔",
+            "verify": "驗證",
+            "doneCompiling": "編譯完成",
+            "couldNotConnectToSerial": "無法連接到序列埠。{0}",
+            "openSketchInNewWindow": "在新視窗開啟草稿",
+            "openFolder": "打開資料夾",
+            "titleLocalSketchbook": "本地草稿資料夾",
+            "titleSketchbook": "草稿資料夾",
+            "close": "你確定要關閉 Sketch？"
         },
         "bootloader": {
-            "burnBootloader": "Burn Bootloader",
-            "doneBurningBootloader": "Done burning bootloader."
+            "burnBootloader": "燒錄 Bootloader",
+            "doneBurningBootloader": "Bootloader 燒錄完成"
         },
         "editor": {
-            "copyForForum": "Copy for Forum (Markdown)",
-            "commentUncomment": "Comment/Uncomment",
-            "increaseIndent": "Increase Indent",
-            "decreaseIndent": "Decrease Indent",
-            "increaseFontSize": "Increase Font Size",
-            "decreaseFontSize": "Decrease Font Size",
-            "autoFormat": "Auto Format"
+            "copyForForum": "複製到論壇(Markdowm)",
+            "commentUncomment": "備註/取消備註",
+            "increaseIndent": "增加縮排",
+            "decreaseIndent": "減少縮排",
+            "increaseFontSize": "加大字體",
+            "decreaseFontSize": "縮小字體",
+            "autoFormat": "自動格式化"
         },
         "examples": {
-            "menu": "Examples",
-            "couldNotInitializeExamples": "Could not initialize built-in examples.",
-            "builtInExamples": "Built-in examples",
-            "customLibrary": "Examples from Custom Libraries",
-            "for": "Examples for {0}",
-            "forAny": "Examples for any board"
+            "menu": "範例",
+            "couldNotInitializeExamples": "無法初始內建的範例",
+            "builtInExamples": "內建範例",
+            "customLibrary": "客製函式庫的範例",
+            "for": "1 {0} 的範例",
+            "forAny": "適用各種開發板的範例"
         },
         "help": {
-            "search": "Search on Arduino.cc",
-            "keyword": "Type a keyword",
-            "gettingStarted": "Getting Started",
-            "environment": "Environment",
-            "troubleshooting": "Troubleshooting",
-            "reference": "Reference",
-            "findInReference": "Find in Reference",
-            "faq": "Frequently Asked Questions",
-            "visit": "Visit Arduino.cc",
-            "privacyPolicy": "Privacy Policy"
+            "search": "在 Arduino.cc 上搜尋",
+            "keyword": "輸入關鍵字",
+            "gettingStarted": "開始",
+            "environment": "環境",
+            "troubleshooting": "故障排除",
+            "reference": "參考",
+            "findInReference": "在參考中搜尋",
+            "faq": "常見問答集",
+            "visit": "造訪 Arduino.cc",
+            "privacyPolicy": "隱私政策"
         },
         "certificate": {
-            "uploadRootCertificates": "Upload SSL Root Certificates",
-            "openContext": "Open context",
-            "remove": "Remove",
-            "upload": "Upload",
-            "addURL": "Add URL to fetch SSL certificate",
-            "enterURL": "Enter URL",
-            "selectCertificateToUpload": "1. Select certificate to upload",
-            "addNew": "Add New",
-            "selectDestinationBoardToUpload": "2. Select destination board and upload certificate",
-            "uploadingCertificates": "Uploading certificates.",
-            "certificatesUploaded": "Certificates uploaded.",
-            "uploadFailed": "Upload failed. Please try again.",
-            "selectBoard": "Select a board...",
-            "boardAtPort": "{0} at {1}",
-            "noSupportedBoardConnected": "No supported board connected"
+            "uploadRootCertificates": "上傳SSL根證書",
+            "openContext": "開啟context脈絡",
+            "remove": "移除",
+            "upload": "上傳",
+            "addURL": "加入 URL 以提取 SSL 證書",
+            "enterURL": "輸入網址",
+            "selectCertificateToUpload": "1. 選擇要上傳的證書",
+            "addNew": "加入新的",
+            "selectDestinationBoardToUpload": "2. 選擇目標的開發板並上傳證書",
+            "uploadingCertificates": "上傳證書",
+            "certificatesUploaded": "證書已上傳",
+            "uploadFailed": "上傳失敗，請再試一次",
+            "selectBoard": "選擇開發板",
+            "boardAtPort": "{0}在{1}",
+            "noSupportedBoardConnected": "不支援目前連接的板子"
         },
         "firmware": {
-            "updater": "WiFi101 / WiFiNINA Firmware Updater",
+            "updater": "WiFi101 / WiFiNINA 韌體更新器",
             "selectBoard": "選擇開發版",
-            "checkUpdates": "Check Updates",
-            "selectVersion": "Select firmware version",
-            "install": "Install",
-            "overwriteSketch": "Installation will overwrite the Sketch on the board.",
-            "installingFirmware": "Installing firmware.",
-            "successfullyInstalled": "Firmware successfully installed.",
-            "failedInstall": "Installation failed. Please try again."
+            "checkUpdates": "檢查更新",
+            "selectVersion": "選擇韌體版本",
+            "install": "安裝",
+            "overwriteSketch": "安裝將覆寫到板子上的 Sketch",
+            "installingFirmware": "安裝韌體",
+            "successfullyInstalled": "成功安裝韌體",
+            "failedInstall": "安裝失敗，請再試一次"
         },
         "dialog": {
-            "dontAskAgain": "Don't ask again"
+            "dontAskAgain": "請勿再次請求"
         },
         "userFields": {
-            "cancel": "Cancel",
-            "upload": "Upload"
+            "cancel": "取消",
+            "upload": "上傳"
         },
         "serial": {
-            "toggleTimestamp": "Toggle Timestamp",
-            "autoscroll": "Autoscroll",
-            "timestamp": "Timestamp",
-            "noLineEndings": "No Line Ending",
-            "newLine": "New Line",
-            "carriageReturn": "Carriage Return",
-            "newLineCarriageReturn": "Both NL & CR",
-            "notConnected": "Not connected. Select a board and a port to connect automatically.",
-            "message": "Message ({0} + Enter to send message to '{1}' on '{2}')",
-            "connectionBusy": "Connection failed. Serial port is busy: {0}",
-            "disconnected": "Disconnected {0} from {1}.",
-            "unexpectedError": "Unexpected error. Reconnecting {0} on port {1}.",
-            "failedReconnect": "Failed to reconnect {0} to serial port after 10 consecutive attempts. The {1} serial port is busy.",
-            "reconnect": "Reconnecting {0} to {1} in {2} seconds..."
+            "toggleTimestamp": "切換時戳",
+            "autoscroll": "自動滾頁面",
+            "timestamp": "時戳/時間戳記",
+            "noLineEndings": "沒有斷行符號",
+            "newLine": "換行",
+            "carriageReturn": "回車",
+            "newLineCarriageReturn": "兩者都是NL和CR",
+            "notConnected": "未有連接，請選擇開發板、埠以自動連接",
+            "message": "訊息 (1{0}+Enter將訊息發送到'{2}'上的2{1})",
+            "connectionBusy": "連接失敗，1[0] 串列埠忙碌",
+            "disconnected": "已斷開{0}與{1}的連接。",
+            "unexpectedError": "意外的錯誤。重新接埠{1}的{0}。",
+            "failedReconnect": "連續嘗試10此後，無法將{0}重新連接到序列埠。{1}序列埠被占用。",
+            "reconnect": "{2}秒內將{0}重新連接至{1}..."
         },
         "component": {
-            "uninstall": "Uninstall",
-            "uninstallMsg": "Do you want to uninstall {0}?",
+            "uninstall": "移除安裝",
+            "uninstallMsg": "你要移除 1{0}？",
             "by": "by",
-            "version": "Version {0}",
-            "moreInfo": "More info",
-            "install": "INSTALL",
-            "filterSearch": "Filter your search..."
+            "version": "版本 1{0}",
+            "moreInfo": "更多資訊",
+            "install": "安裝",
+            "filterSearch": "過濾你的搜尋 ..."
         },
         "electron": {
-            "couldNotSave": "Could not save the sketch. Please copy your unsaved work into your favorite text editor, and restart the IDE.",
-            "unsavedChanges": "Any unsaved changes will not be saved."
+            "couldNotSave": "無法儲存草稿，請複製你未存檔的工作到你偏好的文字編輯器中並重新啟動 IDE 整合開發環境",
+            "unsavedChanges": "任何沒有儲存的修改將不會被儲存"
         },
         "compile": {
-            "error": "Compilation error: {0}"
+            "error": "1{0} 編譯錯誤"
         },
         "upload": {
-            "error": "{0} error: {1}"
+            "error": "1 [0] 錯誤：2 [1]"
         },
         "burnBootloader": {
-            "error": "Error while burning the bootloader: {0}"
+            "error": "燒錄 1{0} Bootloader 時出現錯誤"
         }
     },
     "theia": {
         "core": {
-            "couldNotSave": "Could not save the sketch. Please copy your unsaved work into your favorite text editor, and restart the IDE.",
+            "couldNotSave": "無法儲存草稿，請複製你未存檔的工作到你偏好的文字編輯器中並重新啟動 IDE 整合開發環境",
             "offline": "離線",
-            "daemonOffline": "CLI Daemon Offline",
-            "cannotConnectBackend": "Cannot connect to the backend.",
-            "cannotConnectDaemon": "Cannot connect to the CLI daemon."
+            "daemonOffline": "CLI 命令列常駐程式離線",
+            "cannotConnectBackend": "無法連接後端",
+            "cannotConnectDaemon": "無法連接命令列 (CLI) 常駐程式"
         },
         "debug": {
-            "start": "Start...",
-            "typeNotSupported": "The debug session type \"{0}\" is not supported.",
-            "startError": "There was an error starting the debug session, check the logs for more details."
+            "start": "開始 ....",
+            "typeNotSupported": "不支援 \" 1{0} \" 除錯階段型態",
+            "startError": "除錯階段出現錯誤，更多細節請檢查日誌內容"
         },
         "editor": {
-            "unsavedTitle": "Unsaved – {0}"
+            "unsavedTitle": "1[0] –尚未儲存"
         },
         "messages": {
-            "expand": "Expand",
-            "collapse": "Collapse"
+            "expand": "延伸",
+            "collapse": "崩潰"
         },
         "workspace": {
-            "fileNewName": "Name for new file",
-            "invalidFilename": "Invalid filename.",
-            "invalidExtension": ".{0} is not a valid extension",
-            "newFileName": "New name for file",
-            "deleteCurrentSketch": "Do you want to delete the current sketch?",
-            "sketchDirectoryError": "There was an error creating the sketch directory. See the log for more details. The application will probably not work as expected."
+            "fileNewName": "給予檔案新名稱",
+            "invalidFilename": "不合法的檔案名稱",
+            "invalidExtension": ".{0} 不是合法的副檔名",
+            "newFileName": "給予檔案新名稱",
+            "deleteCurrentSketch": "你要刪除現行的草稿嗎？",
+            "sketchDirectoryError": "在建立草稿目錄時發生錯誤。詳細訊息請參日誌。應用程式可能無法正常運作。"
         }
     },
     "cloud": {
-        "GoToCloud": "GO TO CLOUD"
+        "GoToCloud": "前往雲端"
     }
 }

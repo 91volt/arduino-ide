@@ -15,7 +15,7 @@
             "loseChanges": "Ez baduzu gordetzen, aldaketak galduko dira."
         },
         "ide-updater": {
-            "errorCheckingForUpdates": "Error while checking for Arduino IDE updates.\n{0}",
+            "errorCheckingForUpdates": "Errorea Arduino IDE eguneraketak egiaztatzean.\n{0}",
             "notNowButton": "Orain ez",
             "versionDownloaded": "Arduino IDE {0} deskargatu da.",
             "closeToInstallNotice": "Itxi softwarea eta instalatu eguneratzea zure makinan.",
@@ -25,10 +25,10 @@
             "newVersionAvailable": "Arduino IDEren bertsio berri bat ({0}) eskuragarri dago deskargatzeko.",
             "skipVersionButton": "Saltatu bertsioa",
             "downloadButton": "Software eguneratzea",
-            "goToDownloadPage": "An update for the Arduino IDE is available, but we're not able to download and install it automatically. Please go to the download page and download the latest version from there.",
-            "goToDownloadButton": "Go To Download",
+            "goToDownloadPage": "Arduino IDErentzako eguneraketa bat eskuragarri dago, baina ezin dugu automatikoki deskargatu eta instalatu. Mesedez joan deskargen orrira eta deskargatu azken bertsioa bertatik.",
+            "goToDownloadButton": "Joan Deskargak orrira",
             "ideUpdaterDialog": "Software eguneratzea",
-            "noUpdatesAvailable": "There are no recent updates available for the Arduino IDE"
+            "noUpdatesAvailable": "Ez dago eguneraketa berririk eskuragarri Arduino IDErentzat"
         },
         "menu": {
             "sketch": "Programa",
@@ -239,7 +239,7 @@
             "findInReference": "Bilatu erreferentzian",
             "faq": "Maiz egindako galderak",
             "visit": "Bisitatu Arduino.cc",
-            "privacyPolicy": "Privacy Policy"
+            "privacyPolicy": "Pribatutasun politika"
         },
         "certificate": {
             "uploadRootCertificates": "Kargatu SSL erro-ziurtagiriak",
